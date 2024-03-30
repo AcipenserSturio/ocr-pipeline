@@ -36,7 +36,7 @@ def pipeline(file_in: Path, file_out: Path):
   with open(file_out, 'w', encoding='UTF-8') as res:
     res.write(result)
 
-  del input_seqeunces
+  del input_sequences
   del predicts
   del result
   del encoded
