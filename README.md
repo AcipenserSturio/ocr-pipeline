@@ -1,6 +1,10 @@
 # ocr-pipeline
+We strongly recommend using GPU while post-ocr inference to improve overall performance and prevent RAM overload
 
 ## Requirements
+### Python
+- `torch`
+- `transformers`
 
 ### Debian-based
 
